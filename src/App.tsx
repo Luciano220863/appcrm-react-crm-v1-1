@@ -1,7 +1,5 @@
 
-
-
-function App() {
+export const App = () => {
   return (
     <div>
       <h1>Sistema CRM</h1>
@@ -9,4 +7,3 @@ function App() {
   );
 }
 
-export default App;
