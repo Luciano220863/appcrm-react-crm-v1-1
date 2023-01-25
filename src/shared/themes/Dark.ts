@@ -1,23 +1,18 @@
 import { createTheme } from '@mui/material';
-import { green } from '@mui/material/colors';
 
 export const DarkTheme = createTheme({
     palette: {
         primary: {
-            main: green[700],
-            dark: green[800],
-            light: green[500],
-            contrastText: '#ffffff',
+            main: '#1a4241ff',
+            contrastText: '#fff',
         },
         secondary: {
-            main: green[100],
-            dark: green[400],
-            light: green[900],
-            contrastText: '#ffffff',
+            main: '#00a199ff',
+            contrastText: '#fff',
         },
         background: {
-            paper: '#00a199ff', 
-            default: '#1a4241ff',
+            paper: '#00a199ff',
+            default: '#d3d3d3',
         }
     }
 
